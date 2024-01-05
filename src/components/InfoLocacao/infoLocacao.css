@@ -1,0 +1,53 @@
+.containerInfoLocacao {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #4d4d4d;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+
+#divInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.infoTitulo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.divTexto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.spanInfo {
+    font-size: 18px;
+    color: #fff;
+}
+
+.strongInfo {
+    color: #ffdd1a;
+    font-size: 18px;
+}
+
+.btnAlugar {
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: bold;
+}

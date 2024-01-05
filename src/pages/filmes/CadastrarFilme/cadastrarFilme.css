@@ -1,0 +1,44 @@
+.containerCadastrarFilme {
+    display: flex;
+    min-height: 80vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botaoCadastrarFilme {
+    background-color: #339966;
+    padding: 15px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 110px;
+}
+
+.botaoCadastrarFilme:hover {
+    color: #000;
+    opacity: 0.5;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.checkCadastrarFilme {
+    color: #fff;
+    margin: 0px 5px;
+    margin-bottom: 4px;
+}
+
+.cadastrarFilme {
+    background-color: transparent;
+    color: #fff;
+    margin: 0px 5px;
+    font-weight: bold;
+    text-shadow: #000 0.1em 0.1em 0.1em;
+    font-size: 15px;
+}
+
+#inputFormCadastrarFilme {
+    margin-left: 20px;
+    border: 2;
+    border-color: #000;
+}

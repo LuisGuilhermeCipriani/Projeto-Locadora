@@ -1,0 +1,117 @@
+.containerListarLocacoes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 82.8vh;
+    padding-bottom: 30px;
+}
+
+.divAtual {
+    align-items: center;
+    justify-content: center;
+}
+
+.divRenovacao {
+    align-items: center;
+    justify-content: center;
+}
+
+.infoAtual {
+    text-decoration: underline;
+    text-decoration-color: #ff9999;
+}
+
+.infoRenovacao {
+    text-decoration: underline;
+    text-decoration-color: #00e600;
+}
+
+#iconeListarLocacoes {
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+#barraListarLocacoes {
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+.inputListarLocacoes {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#renovarListarLocacoes {
+    text-align: center;
+    background-color: #8080ff;
+    width: 10%;
+    cursor: pointer;
+}
+
+#renovarListarLocacoes:hover {
+    color: #000;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+#excluirListarLocacoes {
+    text-align: center;
+    background-color: #ff3333;
+    width: 10%;
+    cursor: pointer;
+}
+
+#excluirListarLocacoes:hover {
+    color: #000;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+.penListarLocacoes {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+.trashListarLocacoes {
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+.cabecalhoListarLocacoes {
+    background-color: #999999;
+    color: #fff;
+    text-shadow: #000 0.1em 0.1em 0.1em;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#thTabelaListarLocacoes {
+    background-color: #999999;
+    color: #fff;
+    text-shadow: #000 0.1em 0.1em 0.1em;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+#table-scrollListarLocacoes {
+    width: 80%;
+    height: 450px;
+    overflow: auto;
+    margin-top: 0px;
+}

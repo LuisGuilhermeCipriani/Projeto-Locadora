@@ -1,0 +1,29 @@
+.bg-myColor {
+    background-image: linear-gradient(to left, #333333, #bfbfbf)
+}
+
+.logoHeader {
+    margin: 0px 10px;
+    width: 180px;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 20px !important;
+}
+
+.nav-link:hover {
+    color: #000;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #333333 !important;
+}
+
+.marcaHeader {
+    text-shadow: #000 0.0em 0.1em 0.1em;
+    font-size: 25px;
+}

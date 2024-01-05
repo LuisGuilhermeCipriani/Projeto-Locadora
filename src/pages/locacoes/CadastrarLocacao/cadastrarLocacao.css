@@ -1,0 +1,190 @@
+.containerCadastrarLocacao {
+    display: flex;
+    min-height: 80vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    height: 500px;
+}
+
+.area2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+#infoCliente {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b3b3ff;
+    padding: 0px 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    color: #000;
+    border: transparent;
+}
+
+#infoCliente:hover {
+    color: #000;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+.formCadastrarFilme {
+    display: flex;
+    width: 50%;
+    height: 300px;
+    margin-top: 70px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputCadastrarFilme1 {
+    width: 100%;
+    background-color: #fff;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.inputCadastrarFilme2 {
+    width: 100%;
+    background-color: #fff;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-left: 33px;
+}
+
+.inputCadastrarFilme3 {
+    width: 100%;
+    background-color: #fff;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+.inputCadastrarFilme4 {
+    width: 100%;
+    background-color: #fff;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-left: 14px;
+}
+
+.blocoCadastraFilme {
+    flex-direction: row;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaoCadastrarFilme {
+    background-color: #339966;
+    padding: 15px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 115px;
+}
+
+.botaoCadastrarFilme:hover {
+    color: #000;
+    opacity: 0.5;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.check {
+    color: #fff;
+    margin: 0px 5px;
+}
+
+.cadastrar {
+    background-color: transparent;
+    color: #fff;
+    margin: 0px 5px;
+    font-weight: bold;
+    text-shadow: #000 0.1em 0.1em 0.1em;
+    font-size: 15px;
+}
+
+#form {
+    margin-top: 50px;
+}
+
+#inputForm {
+    margin-left: 20px;
+    border: 2;
+    border-color: #000;
+}
+
+#adicionar {
+    background-color: #339966;
+    padding: 5px 10px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 5px;
+}
+
+#adicionar:hover {
+    color: #fff;
+    background-color: #339933;
+    opacity: 0.7;
+    transition: all 0.1s;
+}
+
+#barraNome {
+    width: 50%;
+    margin: 20px 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#iconeBusca {
+    cursor: pointer;
+    background-color: #8080ff;
+}
+
+#iconeBusca:hover {
+    color: #000;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+#FaSearch {
+    color: #fff;
+}
+
+#barraBusca {
+    width: 80%;
+}
+
+#tableInfo {
+    margin: 0px 0px;
+}
+
+#selectFilmes {
+    width: 250px;
+}
